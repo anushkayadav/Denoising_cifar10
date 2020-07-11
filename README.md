@@ -1,8 +1,10 @@
-# Denoising_cifar10
+# Implementation of Denoising Algorithms on CIFAR-10 Dataset
 
-**implemenation1** : 
-Denoising Autoencoders (DAE)
-references :
+Applied Various Unsupervised Machine Learning algorithms on ciar-10 data to denoise the images. 
+Focused on Denoising auto-encoders which does unsupervised pre-training and can learn good representations via reconstruction
 
-[ref1](https://www.researchgate.net/publication/330382260_Image_Denoising_with_Color_Scheme_by_Using_Autoencoders)
-[ref2](https://arxiv.org/pdf/1611.09119.pdf)
+## Algorithms Used :  
+1.  Simple Denoising Autoencoders (DAE)
+2. Convolutional Auto-encoders with Symmetric Skip Connections
+3. Feed-forward denoising convolutional neural networks (DnCNNs)
+
