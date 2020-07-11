@@ -4,6 +4,11 @@
 - Focused on Denoising auto-encoders which does unsupervised pre-training and can learn good representations via reconstruction
 -  To prevent the auto-encoders from merely copying inputs during training, denoising auto-encoders were proposed to learn representations from corrupted data
 
+<p align="center">
+ <b>Framework Used :</b>
+<a href="https://pytorch.org/"><img src="https://github.com/pytorch/pytorch/raw/master/docs/source/_static/img/pytorch-logo-dark.png" width="100" /></a>
+</p>
+
 ## Algorithms Used :  
 1.  Simple Denoising Autoencoders (DAE) [Reference Paper](https://www.researchgate.net/publication/330382260_Image_Denoising_with_Color_Scheme_by_Using_Autoencoders)
 2. Convolutional Auto-encoders with Symmetric Skip Connections [Reference Paper](https://arxiv.org/pdf/1611.09119.pdf)
