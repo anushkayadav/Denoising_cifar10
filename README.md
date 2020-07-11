@@ -104,6 +104,13 @@ Learning rate =0.001 **.**
 On Test data of 10000 examples:
 - Average PSNR:28.992 
 - Average SSIM: 0.947
+## Conclusion
+**SSIM** (Structural Similarity Image Metric), which estimates the degradation of structural similarity based on the statistical properties of local information between a reference and a distorted image.It combines three local similarity measures based on luminance, contrast, and structure.
+
+**PSNR**, the term peak signal-to-noise ratio is an expression for the ratio between the maximum possible value (power) of a signal and the power of distorting noise that affects the quality of its representation
+The main limitation of this metric is that it relies strictly on numeric comparison and does not actually take into account any level of biological factors of the human vision system such as the structural similarity index. (SSIM)
+<p align="center"><img src="/images/table.PNG" width="500" /></p>
+
 
 ## References
 - [A brief review of image denoising algorithms and beyond](https://people.ee.ethz.ch/~timofter/publications/Gu-Chapter-2019.pdf)
