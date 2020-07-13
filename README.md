@@ -2,8 +2,7 @@
 
 - Applied Various Unsupervised Machine Learning algorithms on ciar-10 data to denoise the images. 
 - Focused on CNN based approaches which do unsupervised pre-training and can learn good representations via reconstruction
-- 
--  To prevent the auto-encoders from merely copying inputs during training, denoising auto-encoders were proposed to learn representations from corrupted data
+- To prevent the auto-encoders from merely copying inputs during training, denoising auto-encoders were proposed to learn representations from corrupted data
 
 <p align="center">
  <b>Framework Used :</b>
@@ -11,7 +10,15 @@
 </p>
 
 ## Algorithms Used :  
-1.  Simple Denoising Autoencoders (DAE) [Reference Paper](https://www.researchgate.net/publication/330382260_Image_Denoising_with_Color_Scheme_by_Using_Autoencoders)
+There are broadly two types of deep learning algorithms which may be used for denoising :
+
+- Discriminative Learning-Based using CNNs
+- Generative Learning-Based using GANs
+
+For the denoising problem of known noise like **Gaussian noise**, using **CNNs based approaches** it is possible to form paired training data and leverage these methods to achieve state-of-the-art performance. They could fully exploit the great capability of the network architecture to learn from data, which breaks through the limitations of prior based methods and further improves the performance whereas **GANs** are used where there are more **complex real noises** and dataset is small.
+
+Since, in our experiment we used **simple Gaussian noise** and CIFAR-10 dataset has **considerable amount of data**(60000 examples), I preferred to use Discriminative Learning-Based such as:
+1. Simple Denoising Autoencoders (DAE) [Reference Paper](https://www.researchgate.net/publication/330382260_Image_Denoising_with_Color_Scheme_by_Using_Autoencoders)
 2. Convolutional Auto-encoders with Symmetric Skip Connections [Reference Paper](https://arxiv.org/pdf/1611.09119.pdf)
 3. Feed-forward denoising convolutional neural networks (DnCNNs) [Reference Paper](https://arxiv.org/pdf/1608.03981.pdf?)
 
