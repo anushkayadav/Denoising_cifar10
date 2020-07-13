@@ -130,7 +130,7 @@ The main limitation of this metric is that it relies strictly on numeric compari
 
 - <a id="4">[[4] Zhang, K., Zuo, W., Chen, Y., Meng, D., & Zhang, L. (2017). Beyond a gaussian denoiser: Residual learning of deep cnn for image denoising. IEEE Transactions on Image Processing, 26(7), 3142-3155.](https://ieeexplore.ieee.org/abstract/document/7839189)</a>
 
-## Other Refrences
+## Other References
 
 - [Fan, L., Zhang, F., Fan, H. et al. Brief review of image denoising techniques. Vis. Comput. Ind. Biomed. Art 2, 7 (2019). https://doi.org/10.1186/s42492-019-0016-7](https://link.springer.com/article/10.1186/s42492-019-0016-7)
 - [Gu, Shuhang, and Radu Timofte. "A brief review of image denoising algorithms and beyond." Inpainting and Denoising Challenges. Springer, Cham, 2019. 1-21.](https://link.springer.com/chapter/10.1007/978-3-030-25614-2_1)
