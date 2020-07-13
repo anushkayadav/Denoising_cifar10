@@ -18,9 +18,9 @@ There are broadly two types of deep learning algorithms which may be used for de
 For the denoising problem of known noise like **Gaussian noise**, using **CNNs based approaches** it is possible to form paired training data and leverage these methods to achieve state-of-the-art performance. They could fully exploit the great capability of the network architecture to learn from data, which breaks through the limitations of prior based methods and further improves the performance whereas **GANs** are used where there are more **complex real noises** and dataset is small.[[1]](#1)
 
 Since, in our experiment we used **simple Gaussian noise** and CIFAR-10 dataset has **considerable amount of data**(60000 examples), I preferred to use Discriminative Learning-Based such as:
-1. Simple Denoising Autoencoders (DAE) [Reference Paper](https://www.researchgate.net/publication/330382260_Image_Denoising_with_Color_Scheme_by_Using_Autoencoders)
-2. Convolutional Auto-encoders with Symmetric Skip Connections [Reference Paper](https://arxiv.org/pdf/1611.09119.pdf)
-3. Feed-forward denoising convolutional neural networks (DnCNNs) [Reference Paper](https://arxiv.org/pdf/1608.03981.pdf)
+1. Simple Denoising Autoencoders (DAE) [Reference Paper](https://www.researchgate.net/publication/330382260_Image_Denoising_with_Color_Scheme_by_Using_Autoencoders)[[2]](#2)
+2. Convolutional Auto-encoders with Symmetric Skip Connections [Reference Paper](https://arxiv.org/pdf/1611.09119.pdf)[[3]](#3)
+3. Feed-forward denoising convolutional neural networks (DnCNNs) [Reference Paper](https://arxiv.org/pdf/1608.03981.pdf)[[4]](#4)
 
 ## Dataset and Noise
 The dataset used  comprises of 60000 color pictures in 10 classes with 6000 picture per class.
@@ -122,18 +122,20 @@ The main limitation of this metric is that it relies strictly on numeric compari
 
 
 ## References
-- <a id="1">[J. Chen, J. Chen, H. Chao and M. Yang, "Image Blind Denoising with Generative Adversarial Network Based Noise Modeling," 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition, Salt Lake City, UT, 2018, pp. 3155-3164, doi: 10.1109/CVPR.2018.00333.](https://ieeexplore.ieee.org/document/8578431)</a>
+- <a id="1">[[1] J. Chen, J. Chen, H. Chao and M. Yang, "Image Blind Denoising with Generative Adversarial Network Based Noise Modeling," 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition, Salt Lake City, UT, 2018, pp. 3155-3164, doi: 10.1109/CVPR.2018.00333.](https://ieeexplore.ieee.org/document/8578431)</a>
 
-- [A brief review of image denoising algorithms and beyond](https://people.ee.ethz.ch/~timofter/publications/Gu-Chapter-2019.pdf)
+- <a id="2">[[2] Ali, Irfan & Lashari, Haque & Hassan, Syed & Maitlo, Abdullah & Qureshi, Basit. (2018). Image Denoising with Color Scheme by Using Autoencoders. 18. 158-161.](https://www.researchgate.net/publication/330382260_Image_Denoising_with_Color_Scheme_by_Using_Autoencoders)</a>
 
-- [Image Denoising Algorithms ](https://sci-hub.tw/10.1109/CSNT.2013.43)
+- <a id="3">[[3] Mao, Xiaojiao, Chunhua Shen, and Yu-Bin Yang. "Image restoration using very deep convolutional encoder-decoder networks with symmetric skip connections." Advances in neural information processing systems. 2016.](http://papers.nips.cc/paper/6172-image-restoration-using-very-deep-convolutional-encoder-decoder-networks-with-symmetric-skip-connections)</a>
 
-- [Image Denoising with Color Scheme by Using Autoencoders](https://www.researchgate.net/publication/330382260_Image_Denoising_with_Color_Scheme_by_Using_Autoencoders)
+- <a id="4">[[4] Zhang, K., Zuo, W., Chen, Y., Meng, D., & Zhang, L. (2017). Beyond a gaussian denoiser: Residual learning of deep cnn for image denoising. IEEE Transactions on Image Processing, 26(7), 3142-3155.](https://ieeexplore.ieee.org/abstract/document/7839189)</a>
 
-- https://arxiv.org/pdf/1611.09119.pdf
-- https://arxiv.org/pdf/1608.03981.pdf
+## Other Refrences
 
-- [Sparse, Stacked and Variational Autoencoder](https://medium.com/@venkatakrishna.jonnalagadda/sparse-stacked-and-variational-autoencoder-efe5bfe73b64)
+- [Fan, L., Zhang, F., Fan, H. et al. Brief review of image denoising techniques. Vis. Comput. Ind. Biomed. Art 2, 7 (2019). https://doi.org/10.1186/s42492-019-0016-7](https://link.springer.com/article/10.1186/s42492-019-0016-7)
+- [Gu, Shuhang, and Radu Timofte. "A brief review of image denoising algorithms and beyond." Inpainting and Denoising Challenges. Springer, Cham, 2019. 1-21.](https://link.springer.com/chapter/10.1007/978-3-030-25614-2_1)
+- []()
+
 
 
 
