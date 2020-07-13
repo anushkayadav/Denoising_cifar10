@@ -18,9 +18,9 @@ There are broadly two types of deep learning algorithms which may be used for de
 For the denoising problem of known noise like **Gaussian noise**, using **CNNs based approaches** it is possible to form paired training data and leverage these methods to achieve state-of-the-art performance. They could fully exploit the great capability of the network architecture to learn from data, which breaks through the limitations of prior based methods and further improves the performance whereas **GANs** are used where there are more **complex real noises** and dataset is small.[[1]](#1)
 
 Since, in our experiment we used **simple Gaussian noise** and CIFAR-10 dataset has **considerable amount of data**(60000 examples), I preferred to use Discriminative Learning-Based such as:
-1. Simple Denoising Autoencoders (DAE) [Reference Paper](https://www.researchgate.net/publication/330382260_Image_Denoising_with_Color_Scheme_by_Using_Autoencoders)[[2]](#2)
-2. Convolutional Auto-encoders with Symmetric Skip Connections [Reference Paper](https://arxiv.org/pdf/1611.09119.pdf)[[3]](#3)
-3. Feed-forward denoising convolutional neural networks (DnCNNs) [Reference Paper](https://arxiv.org/pdf/1608.03981.pdf)[[4]](#4)
+1. [Simple Denoising Autoencoders (DAE)](https://www.researchgate.net/publication/330382260_Image_Denoising_with_Color_Scheme_by_Using_Autoencoders)[[2]](#2)
+2. [Convolutional Auto-encoders with Symmetric Skip Connections](https://arxiv.org/pdf/1611.09119.pdf)[[3]](#3)
+3. [Feed-forward denoising convolutional neural networks (DnCNNs)](https://arxiv.org/pdf/1608.03981.pdf)[[4]](#4)
 
 ## Dataset and Noise
 The dataset used  comprises of 60000 color pictures in 10 classes with 6000 picture per class.
@@ -134,7 +134,6 @@ The main limitation of this metric is that it relies strictly on numeric compari
 
 - [Fan, L., Zhang, F., Fan, H. et al. Brief review of image denoising techniques. Vis. Comput. Ind. Biomed. Art 2, 7 (2019). https://doi.org/10.1186/s42492-019-0016-7](https://link.springer.com/article/10.1186/s42492-019-0016-7)
 - [Gu, Shuhang, and Radu Timofte. "A brief review of image denoising algorithms and beyond." Inpainting and Denoising Challenges. Springer, Cham, 2019. 1-21.](https://link.springer.com/chapter/10.1007/978-3-030-25614-2_1)
-- []()
 
 
 
