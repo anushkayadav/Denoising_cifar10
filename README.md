@@ -1,7 +1,8 @@
 # Implementation of Denoising Algorithms on CIFAR-10 Dataset
 
 - Applied Various Unsupervised Machine Learning algorithms on ciar-10 data to denoise the images. 
-- Focused on Denoising auto-encoders which does unsupervised pre-training and can learn good representations via reconstruction
+- Focused on CNN based approaches which do unsupervised pre-training and can learn good representations via reconstruction
+- 
 -  To prevent the auto-encoders from merely copying inputs during training, denoising auto-encoders were proposed to learn representations from corrupted data
 
 <p align="center">
