@@ -92,10 +92,11 @@ On Test data of 10000 examples:
 2. **Conv+BN+ReLU** : batch normalization incorporated to speed up training as well as boost the denoising performance
 3.  **Conv** : To reconstruct the output
 <p align="center"><img src="/images/dnnarc.PNG" width="400" /></p>
+
 **Hyperparameters** : 
-Batch Size = 32 **.**
-no. of epochs = 40 **.**
-Learning rate =0.001 **.**
+Batch Size = 32  **.**
+no. of epochs = 40  **.**
+Learning rate =0.001  **.**
 
 ### **RESULTS**
 ![simres.png](/images/dncnres.PNG)
